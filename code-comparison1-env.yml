@@ -1,0 +1,25 @@
+name: code-comparison1
+
+channels:
+    - conda-forge
+    - main
+
+dependencies:
+- python=3
+- numpy=1.15
+- scipy=1.1
+- pandas=0.24
+- astropy=3
+
+- pyne=0.5
+- pytables
+- h5py
+- requests
+- tqdm
+- jupyter
+- notebook
+- nbconvert
+- matplotlib
+- nbformat
+- nbsphinx
+- git-lfs
